@@ -53,11 +53,13 @@ export default function App() {
   };
 
   const completeTask = (index) => {
+    // deletes the task immediately without toggling completion status
     let itemsCopy = [...taskItems];
-    itemsCopy[index].isCompleted = !itemsCopy[index].isCompleted;
+    itemsCopy.splice(index, 1); // removes the task at the specified index
     setTaskItems(itemsCopy);
   };
 
+  // THE TASK'S STATE FILTER
   const filteredTasks = taskItems.filter((item) => {
     if (filter === "all") {
       return true;
@@ -118,6 +120,7 @@ export default function App() {
                     itemsCopy[index].isCompleted = status;
                     setTaskItems(itemsCopy);
                   }}
+                  onDelete={() => completeTask(index)} // passes the delete function 
                 />
               </TouchableOpacity>
             ))}
