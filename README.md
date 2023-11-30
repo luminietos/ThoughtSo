@@ -8,7 +8,11 @@ This application functions like any other To Do List.
 
 First, download the files to your own computer, and then navigate to the project via your preferred CLI (e.g.; `PS C:\Users\yourusernamehere> cd C:\Users\yourusernamehere\OneDrive\Files\GitHub\ThoughtSo\expoToDo`). Then type in the command `code .` to have the code open in Visual Studio Code, if that's the IDE you prefer to use and for troubleshooting `npm react-native doctor` works well.
 
+Don't forget to check that you have all the pre-requisites downloaded from [React Native's official documentation](https://reactnative.dev/docs/environment-setup?guide=native#:~:text=Installing%20dependencies)! 
+
 Once you've navigated to the directory of the project you're trying to run (`cd`[insert file path here]), you can run metro (`npm start`/`npx expo start`) and android/iOS (`npm run android`/`npx react-native run android`) (on two separate Command Prompt tabs), connecting your project to an emulator from Android Studio. 
+
+Remember to check that your React Native, SDK, and Gradle versions are correct and work together!
 
 
 ## Tech stack
