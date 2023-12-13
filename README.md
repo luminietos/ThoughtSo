@@ -12,12 +12,14 @@ This application functions like any other To-Do List. The user can type in anyth
 The app also has three different tabs.
 
 The main tab is "All", which shows every task the user has input (and has not deleted) regardless of status. 
+
 ![todo list all tab](https://github.com/luminietos/ThoughtSo/assets/77718358/d036a2c7-4e94-4ecd-aa88-9e245ad86ecd)
 
 image alt: The landing page of the to-do list application titled "Today's tasks". The page has five different user-input tasks, two of which have been marked as completed, visualized by their checkboxes and the tasks' texts being green. 
 
 
 Then, there is "Active", which only shows all tasks that haven't been marked as completed. 
+
 ![todo list active tab](https://github.com/luminietos/ThoughtSo/assets/77718358/5e475e6b-3215-4dc2-95ce-f4e4309f6f5b)
 
 image alt: The "Active" tab of the app. It displays three out of the five aforementioned tasks, as only three were not marked as completed. 
@@ -36,9 +38,11 @@ The app will remember your choices even after refreshing. Even if you yourself d
 
 First, download the files to your computer, and then navigate to the project via your preferred CLI (e.g.; `PS C:\Users\yourusernamehere> cd C:\Users\yourusernamehere\OneDrive\Files\GitHub\ThoughtSo\expoToDo`). Then type in the command `code .` to have the code open in Visual Studio Code, if that's the IDE you prefer to use, and for troubleshooting `npm react-native doctor` works well.
 
+
 <img width="378" alt="todo list expo start example" src="https://github.com/luminietos/ThoughtSo/assets/77718358/ce8a4b9d-b8af-4ac6-bf64-c6441cad87c8">
 
 image alt: A screenshot of Visual Studio Code's terminal on this project's directory, displaying what happens when you run the command: "npx expo start".
+
 
 
 Don't forget to check that you have all the pre-requisites downloaded from [React Native's official documentation](https://reactnative.dev/docs/environment-setup?guide=native#:~:text=Installing%20dependencies)! 
