@@ -1,7 +1,7 @@
 # ThoughtSo
 ThoughtSo is a cross-platform [React Native](https://reactnative.dev/docs/environment-setup) & [Expo](https://docs.expo.dev/) To Do List application. It is largely inspired by (but not a direct copy of) the tutorial by [the YouTube channel "Made With Matt"](https://www.youtube.com/watch?v=0kL6nhutjQ8) and made mainly with JavaScript.
 
-<img width="960" alt="todo list in android studio" src="https://github.com/luminietos/ThoughtSo/assets/77718358/f042a532-4c27-4736-932c-3e7bd1b8c407">
+<img width="960" alt="todo list in android studio" src="https://github.com/luminietos/ThoughtSo/assets/77718358/9194d171-cd55-4364-bd40-1d801581365a">
 
 image alt: A screenshot of the to-do list app in Android Studio, exemplifying how it'd look on a mobile device. The title reads "Today's tasks", and above it are three different smaller, centered texts that act as the app's tabs when clicked. The tabs are: "All", "Active", and "Completed". Underneath the title are four three user-input tasks. These tasks, individually, read: "Cheese", "Milk", "Oranges", and "Bread". Underneath the tasks is the input field, which has placeholder text that reads "Write a task here". Next to the input field is a round button with the plus symbol on it, which acts as the submit button for the text the user has typed in the input field. The color palette is that of a dark mode. 
 
@@ -13,21 +13,21 @@ The app also has three different tabs.
 
 The main tab is "All", which shows every task the user has input (and has not deleted) regardless of status. 
 
-![todo list all tab](https://github.com/luminietos/ThoughtSo/assets/77718358/d036a2c7-4e94-4ecd-aa88-9e245ad86ecd)
+![todo list all tab2](https://github.com/luminietos/ThoughtSo/assets/77718358/4f578675-3bb3-48de-91a0-3edb64f24a40)
 
 image alt: The landing page of the to-do list application titled "Today's tasks". The page has five different user-input tasks, two of which have been marked as completed, visualized by their checkboxes and the tasks' texts being green. 
 
 
 Then, there is "Active", which only shows all tasks that haven't been marked as completed. 
 
-![todo list active tab](https://github.com/luminietos/ThoughtSo/assets/77718358/5e475e6b-3215-4dc2-95ce-f4e4309f6f5b)
+![todo list active tab2](https://github.com/luminietos/ThoughtSo/assets/77718358/06143c07-ecb7-4835-95b6-755eb653b7ce)
 
 image alt: The "Active" tab of the app. It displays three out of the five aforementioned tasks, as only three were not marked as completed. 
 
 
 Similarly, the final tab titled "Completed" only displays the tasks the user has marked as complete (green). These tasks, too, can be deleted at any time.
 
-![todo list completed tab](https://github.com/luminietos/ThoughtSo/assets/77718358/063a6540-86bf-475e-b2f2-4053957e0558)
+![todo list completed tab2](https://github.com/luminietos/ThoughtSo/assets/77718358/f1845626-d2eb-4dc0-940e-57a8ac4bfedb)
 
 image alt: The final tab; the "Completed" tab. It displays the two tasks the user wrote that have been marked as compeleted (green). The first task reads "Deploy latest project", and the second simply reads "D&D" session. 
 
