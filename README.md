@@ -5,6 +5,7 @@ ThoughtSo is a cross-platform [React Native](https://reactnative.dev/docs/enviro
 
 image alt: A screenshot of the to-do list app in Android Studio, exemplifying how it'd look on a mobile device. The title reads "Today's tasks", and above it are three different smaller, centered texts that act as the app's tabs when clicked. The tabs are: "All", "Active", and "Completed". Underneath the title are four three user-input tasks. These tasks, individually, read: "Cheese", "Milk", "Oranges", and "Bread". Underneath the tasks is the input field, which has placeholder text that reads "Write a task here". Next to the input field is a round button with the plus symbol on it, which acts as the submit button for the text the user has typed in the input field. The color palette is that of a dark mode. 
 
+
 ## Description
 This application functions like any other To-Do List. The user can type in anything in the input field and, upon pressing the "add" button (circle with a plus sign on it), the input text is added in as a task. The task can be deleted from the red 'x' button on each individual task. Each task also has a light yellow square that acts as the indicator for whether or not the task is completed. If it is, both the square and the text turn green. If it's then clicked again, it'll be marked as active again; and so on and so forth forever and ever. 
 
@@ -15,16 +16,19 @@ The main tab is "All", which shows every task the user has input (and has not de
 
 image alt: The landing page of the to-do list application titled "Today's tasks". The page has five different user-input tasks, two of which have been marked as completed, visualized by their checkboxes and the tasks' texts being green. 
 
+
 Then, there is "Active", which only shows all tasks that haven't been marked as completed. 
 ![todo list active tab](https://github.com/luminietos/ThoughtSo/assets/77718358/5e475e6b-3215-4dc2-95ce-f4e4309f6f5b)
 
 image alt: The "Active" tab of the app. It displays three out of the five aforementioned tasks, as only three were not marked as completed. 
+
 
 Similarly, the final tab titled "Completed" only displays the tasks the user has marked as complete (green). These tasks, too, can be deleted at any time.
 
 ![todo list completed tab](https://github.com/luminietos/ThoughtSo/assets/77718358/063a6540-86bf-475e-b2f2-4053957e0558)
 
 image alt: The final tab; the "Completed" tab. It displays the two tasks the user wrote that have been marked as compeleted (green). The first task reads "Deploy latest project", and the second simply reads "D&D" session. 
+
 
 The app will remember your choices even after refreshing. Even if you yourself do not remember.
 
@@ -35,6 +39,7 @@ First, download the files to your computer, and then navigate to the project via
 <img width="378" alt="todo list expo start example" src="https://github.com/luminietos/ThoughtSo/assets/77718358/ce8a4b9d-b8af-4ac6-bf64-c6441cad87c8">
 
 image alt: A screenshot of Visual Studio Code's terminal on this project's directory, displaying what happens when you run the command: "npx expo start".
+
 
 Don't forget to check that you have all the pre-requisites downloaded from [React Native's official documentation](https://reactnative.dev/docs/environment-setup?guide=native#:~:text=Installing%20dependencies)! 
 
